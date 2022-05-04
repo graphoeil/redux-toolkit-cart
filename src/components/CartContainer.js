@@ -39,7 +39,7 @@ const CartContainer = () => {
 				<div className="cart-total">
 					<h4>Total <span>${ total.toFixed(2) }</span></h4>
 				</div>
-				<button className="btn clear-btn" onClick={() => { dispatch(openModal()) }}>
+				<button className="btn clear-btn" onClick={() => { dispatch(openModal()); }}>
 					Clear cart
 				</button>
 			</footer>
