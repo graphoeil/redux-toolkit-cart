@@ -1,7 +1,7 @@
 # Redux Toolkit
 
 #### Live
-View it live at (https://)
+View it live at (https://redux-toolkit-cart.netlify.app/)
 
 #### React Course
 
