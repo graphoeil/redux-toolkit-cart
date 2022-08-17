@@ -11,7 +11,7 @@ const initialState = {
 	cartItems:[],
 	amount:4,
 	total:0,
-	isLoading:true
+	isLoading:false
 };
 
 // Load data from server, most basic setup

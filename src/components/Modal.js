@@ -1,7 +1,7 @@
 // Imports
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { clearCart, getCartItems } from '../features/cart/cartSlice';
+import { clearCart } from '../features/cart/cartSlice';
 import { closeModal } from '../features/modal/modalSlice';
 
 // Component

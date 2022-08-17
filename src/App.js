@@ -18,14 +18,12 @@ function App() {
 	useEffect(() => {
 		// We can pass parameters, to indice type of data to load ...
 		dispatch(getCartItems('smartphone'));
-		// eslint-disable-next-line
-	},[]);
+	},[dispatch]);
 
 	// Calculate totals
 	useEffect(() => {
 		dispatch(calculateTotals());
-		// eslint-disable-next-line
-	},[cartItems]);
+	},[dispatch, cartItems]);
 
 	// Returns
 	if (isLoading){
