@@ -17,7 +17,7 @@ const Modal = () => {
 				<h4>Remove all items from your shopping cart ?</h4>
 				<div className="btn-container">
 					<button type="button" className="btn confirm-btn" 
-						onClick={ () => { dispatch(clearCart()); dispatch(closeModal()); dispatch(getCartItems('smartphone')); } }>
+						onClick={ () => { dispatch(clearCart()); dispatch(closeModal()); } }>
 						Confirm
 					</button>
 					<button type="button" className="btn clear-btn" 
